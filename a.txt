@@ -6,9 +6,39 @@ temp=a;
 a=b;
 b=temp;
 }
+<<<<<<< HEAD
+
+
+
+#include <stdio.h>
+
+int main() {
+
+    int integerType;
+    char charType;
+    float floatType;
+    double doubleType;
+
+    printf("Size of int is: %u bytes", sizeof(integerType));
+
+    printf("\nSize of float is: %u bytes", sizeof(floatType));
+
+    printf("\nSize of double is: %u bytes", sizeof(doubleType));
+
+    printf("\nSize of char is: %u bytes", sizeof(charType));
+
+    return 0;
+=======
 #include<stdio.h>
 int main()
 {
+<<<<<<< HEAD
+int a,b,c;
+a=2;
+b=2;
+c=a+b;
+printf("%d",c);
+=======
 int i,n;
 int t1=0,t2=1;
 int nextTerm =t1+t2;
@@ -23,6 +53,7 @@ t2=nextTerm;
 nextTerm=t1+t2;
 }
 return 0;
+<<<<<<< HEAD
 #include <stdio.h>
 int main()
 {
@@ -37,3 +68,7 @@ int main()
     return 0;
 
 }}
+=======
+>>>>>>> 183b191fcd99469fb0e02f9c72e6b6b3957a296a
+}
+>>>>>>> 49c0ceed41a6aea53d458712face8d4c1e72ef68
