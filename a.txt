@@ -32,6 +32,13 @@ int main() {
 #include<stdio.h>
 int main()
 {
+<<<<<<< HEAD
+int a,b,c;
+a=2;
+b=2;
+c=a+b;
+printf("%d",c);
+=======
 int i,n;
 int t1=0,t2=1;
 int nextTerm =t1+t2;
